@@ -1,0 +1,101 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    margin : 0;
+    padding: 0;
+    background: url(../img/sitebg.jpg) no-repeat;
+    background-size: cover;
+}
+.firstPage
+{
+    width: 100%;
+    height: 100%;
+}
+.box
+{ 
+    border-radius: 5%;
+    text-align: center;
+    width: 450px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1.83%;
+    margin-bottom: 1.83%;
+    color: white;
+    overflow: hidden;
+    animation-name: boxanim;
+    animation-duration: 4s;
+    position: relative;
+}
+@keyframes boxanim
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to
+    {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.box-img
+{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    background: rgba(0,0,0,1);
+    filter: grayscale(0%);
+}
+.box-img:hover
+{
+    transform: scale(1.15,1.15);
+}
+.box h1
+{
+    font-family: 'The Historia Demo', "Segoe Print" ;
+    font-size: 70px;
+    background: linear-gradient(to top, #ffe838,#fd57bf);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: -5px;
+    padding: 1rem;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    user-select: none;
+}
+.box h6
+{
+    margin-top: -60px;
+    font-family: 'The Historia Demo', "Segoe Print" ;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.underline_ad
+{
+    margin-top: -50px;
+    background: linear-gradient(to top, #ffe838,#fd57bf);
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+    height: 2px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.box p
+{
+    text-align: justify;
+    font-family: "Segoe Print";
+}
+.top-nav
+{
+    display: none;
+}
