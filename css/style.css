@@ -1,3 +1,8 @@
+@font-face
+{
+    font-family: histDemo;
+    src:url(../fonts/historia.ttf);
+}
 html
 {
     scroll-behavior: smooth;
@@ -9,6 +14,7 @@ body
     padding: 0;
     background: url(../img/sitebg.jpg) no-repeat;
     background-size: cover;
+    height: 100%;
 }
 .firstPage
 {
@@ -26,7 +32,7 @@ body
     text-align: center;
     margin: 0 auto;
     margin-top: 1.83%;
-    margin-bottom: 1.83%;
+    margin-bottom: 1.8%;
     color: white;
     overflow: hidden;
     animation-name: boxanim;
@@ -61,7 +67,7 @@ body
 }
 .box h1
 {
-    font-family: 'The Historia Demo', "Segoe Print" ;
+    font-family: histDemo;
     font-size: 70px;
     background: linear-gradient(to top, #ffe838,#fd57bf);
     -webkit-background-clip: text;
@@ -75,7 +81,7 @@ body
 .box h6
 {
     margin-top: -60px;
-    font-family: 'The Historia Demo', "Segoe Print" ;
+    font-family: histDemo;
     font-size: 25px;
     letter-spacing: 1px;
     font-weight: 100;
