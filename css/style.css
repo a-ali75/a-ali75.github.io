@@ -18,7 +18,7 @@ body
     margin : 0;
     padding: 0;
     background: url(../img/sitebg.jpg) no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .firstPage
 {
