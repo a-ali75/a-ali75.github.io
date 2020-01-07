@@ -1,7 +1,12 @@
 @font-face
 {
-    font-family: histDemo;
+    font-family: The-Historia-Demo;
     src:url(../fonts/historia.ttf);
+}
+@font-face
+{
+    font-family: Segoe-Print;
+    src:url(../fonts/segoe.ttf);
 }
 html
 {
@@ -67,7 +72,7 @@ body
 }
 .box h1
 {
-    font-family: histDemo;
+    font-family: The-Historia-Demo;
     font-size: 70px;
     background: linear-gradient(to top, #ffe838,#fd57bf);
     -webkit-background-clip: text;
@@ -81,7 +86,7 @@ body
 .box h6
 {
     margin-top: -60px;
-    font-family: histDemo;
+    font-family: The-Historia-Demo;
     font-size: 25px;
     letter-spacing: 1px;
     font-weight: 100;
@@ -99,7 +104,7 @@ body
 .box p
 {
     text-align: justify;
-    font-family: "Segoe Print";
+    font-family: Segoe-Print;
 }
 .top-nav
 {
